@@ -1,0 +1,66 @@
+.counterBtnSection {
+  width: 100%;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.btn {
+  width: 40%;
+  margin: 1em;
+  border: .5px solid black;
+  cursor: pointer;
+  outline: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 110, 253);
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(11, 94, 215);
+  border-color: rgb(10, 88, 202);
+}
+
+.text {
+  width: 20%;
+  padding: 1em;
+  font-size: 30px;
+}
+
+.operators {
+  font-size: 350%;
+  background: inherit;
+}
+
+.resetSection {
+  margin: 0;
+}
+
+.reset {
+  cursor: pointer;
+  outline: 0px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  text-decoration: underline;
+}
+
+.reset:hover {
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 110, 253);
+}

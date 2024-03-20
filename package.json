@@ -1,0 +1,43 @@
+{
+  "name": "counter-btn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franky1234/counter-btn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franky1234/counter-btn/issues"
+  },
+  "homepage": "https://github.com/franky1234/counter-btn#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.67",
+    "react": "^18.2.0",
+    "rollup": "^4.13.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "init": "^0.1.2",
+    "save-dev": "^0.0.1-security",
+    "sb": "^8.0.2"
+  }
+}
