@@ -33,7 +33,7 @@ const Counter: React.FC<CounterProps> = (props) => {
   };
   const handleIncreaseBtn = (_: any) => {
     dispatch({ value: { count: count + 1 }, type: "INCREASE" });
-    onTrackCounter({ count: count - 1 });
+    onTrackCounter({ count: count + 1 });
   };
   const handleResetBtn = (_: any) => {
     dispatch({ value: { count: props.count }, type: "RESET" });
